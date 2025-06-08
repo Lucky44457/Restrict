@@ -24,8 +24,8 @@ MONGO_DB = os.getenv("MONGO_DB", "mongodb+srv://rex380895:sxz1J690QyA5RIaj@clust
 OWNER_ID = list(map(int, os.getenv("OWNER_ID", "6425525488").split())) # list seperated via space
 DB_NAME = os.getenv("DB_NAME", "MONGO_DB")
 STRING = os.getenv("STRING", None) # optional
-LOG_GROUP = int(os.getenv("LOG_GROUP", "-1002557248555")) # optional with -100
-FORCE_SUB = int(os.getenv("FORCE_SUB", "-1002439642259")) # optional with -100
+LOG_GROUP = int(os.getenv("LOG_GROUP", "-100")) # optional with -100
+FORCE_SUB = int(os.getenv("FORCE_SUB", "-100")) # optional with -100
 MASTER_KEY = os.getenv("MASTER_KEY", "lq0a7uQHiGP00yzzYN3YF1yOIqIddCygNm9lv4rUM64=") # for session encryption
 IV_KEY = os.getenv("IV_KEY", "fa6cd9ac65d3fc6053e4bdfb58de22d4") # for decryption
 YT_COOKIES = os.getenv("YT_COOKIES", YTUB_COOKIES)
